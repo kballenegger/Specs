@@ -27,7 +27,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
   files = FileList['src/libsodium/**/*.{c,h,data}']
   files.exclude('**/*try.*')
   files.exclude('**/*version.*')
-  files.exclude('src/libsodium/crypto_scalarmult/curve25519/donna_c64/*')
+  files.exclude('src/libsodium/crypto_scalarmult/curve25519/donna_c64/')
 
   
   s.source_files = files 
