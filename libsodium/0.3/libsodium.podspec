@@ -28,9 +28,6 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
   s.exclude_files = '**/*try.*', '**/*version.*',
     'src/libsodium/crypto_scalarmult/curve25519/donna_c64/'
 
-  
-  s.source_files = files 
-
 
 
  end
